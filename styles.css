@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.Board {
+    display: grid; margin: 50px;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 10px;
+
+    padding: 5px; border: 2px solid #888888;
+}
+
+.Box {
+    display: flex; justify-content: center; align-items: center;
+
+    background-color: #ffffff30;
+    border: 2px solid #cccccc;
+
+    font-family: system-ui; font-size: 50px; font-weight: bold;
+
+    transition: 0.5s;
+}
+
+.Box:hover {
+    background-color: #ededed;
+}
+
+.Box[data-value = "2"] { background-color: rgba(255, 0, 0, 0.3); }
+.Box[data-value = "4"] { background-color: rgba(255, 0, 0, 0.3); }
+.Box[data-value = "8"] { background-color: rgba(255, 166, 0, 0.3); }
+.Box[data-value = "16"] { background-color: rgba(255, 166, 0, 0.3); }
+.Box[data-value = "32"] { background-color: rgba(255, 255, 0, 0.3); }
+.Box[data-value = "64"] { background-color: rgba(255, 255, 0, 0.3); }
+.Box[data-value = "128"] { background-color: rgba(0, 128, 0, 0.3); }
+.Box[data-value = "256"] { background-color: rgba(0, 128, 0, 0.3); }
+.Box[data-value = "512"] { background-color: rgba(0, 0, 255, 0.3); }
+.Box[data-value = "1024"] { background-color: rgba(0, 0, 255, 0.3); }
+.Box[data-value = "2048"] { background-color: rgba(128, 0, 128, 0.3); }
