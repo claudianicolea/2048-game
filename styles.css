@@ -42,13 +42,13 @@ body {
 }
 
 .Box[data-value="2"] { background-color: var(--red); }
-.Box[data-value="4"] { background-color: var(--red); }
+.Box[data-value="4"] { background-color: var(--orange); }
 .Box[data-value="8"] { background-color: var(--orange); }
-.Box[data-value="16"] { background-color: var(--orange); }
+.Box[data-value="16"] { background-color: var(--yellow); }
 .Box[data-value="32"] { background-color: var(--yellow); }
-.Box[data-value="64"] { background-color: var(--yellow); }
+.Box[data-value="64"] { background-color: var(--green); }
 .Box[data-value="128"] { background-color: var(--green); }
-.Box[data-value="256"] { background-color: var(--green); }
+.Box[data-value="256"] { background-color: var(--blue); }
 .Box[data-value="512"] { background-color: var(--blue); }
-.Box[data-value="1024"] { background-color: var(--blue); }
+.Box[data-value="1024"] { background-color: var(--purple); }
 .Box[data-value="2048"] { background-color: var(--purple); }
